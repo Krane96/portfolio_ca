@@ -1,13 +1,149 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+body{
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 400;
+    background-color: #0F1624;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 0.5rem;
+    font-size: 1.2em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    align-items: center;
+}
+img{
+    width: 100%;
+    border-radius: 3px;
+}
+a, p, h2, h3, h4{
+    text-decoration: none;
+    color: #f1ebeb;
+}
+p{
+    opacity: .8;
+}
+h1{
+    font-size: 3.4em;
+}
+h2{
+    padding: 1rem 0.5rem;
+    letter-spacing: 1px;
+    font-size: 2.4em;
+}
+h3{
+    font-size: 1.4em;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h4{
+    text-align: center;
+    font-size: 1.3em;
 }
+
+.section_divider{
+    width: 120px;
+    height: 8px;
+    border: none;
+    background: linear-gradient(60deg, #d15e5ec2 40%, #ec5b5b88 70%);
+    border-radius: 5px;
+}
+
+.navigation a{
+    margin: 0 1.5rem;
+}
+.icons a{
+    margin: 0 1rem;
+    font-size: 1.6em;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+}
+.left_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.left_div h1{
+    background: linear-gradient(60deg, #FFFFFF 18.77%, rgba(255, 255, 255, 0.459) 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.right_div{
+    width: 450px;
+}
+.right_div img{
+    width: 110%;
+}
+.left_div a {
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: none;
+  border-radius: 5px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  max-width: 250px;
+  padding: 1rem;
+  cursor: pointer;
+  margin-bottom: 4rem;
+  font-size: 1.2em;
+}
+.left_div p{
+    font-size: 1.1em;
+    margin-top: -2rem;
+}
+.hero_section{
+    margin-top: 5rem;
+}
+
+.project_card{
+    max-width: 370px;
+    margin: 5rem 0 5rem 0;
+    box-shadow: #ffd60a  0px 1px 4px;
+}
+.project_card h3{
+    text-align: center;
+    color: #D15E5E;
+    margin-top: .5rem;
+}
+.project_card p{
+    padding: 1rem 2rem;
+}
+.project_card p{
+    line-height: 26px;
+}
+
+.stack, .project_links{
+    display: flex;
+    justify-content: space-evenly;
+}
+.stack p{
+    padding: 5px;
+    margin: 1rem 0;
+    color: #6B6DAF;
+    font-weight: 700;
+}
+
+.project_links a{
+    margin: .5rem 0 1.5rem 0;
+    background-color: #f08080;
+    border-radius: 8px;
+    padding: 5px 15px;
+}
+.section_title{
+    margin-top: 8rem;
+}
+
+
+
