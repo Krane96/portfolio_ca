@@ -5,7 +5,7 @@ const Footer = () => {
     <>
       <hr style={{height:"3px"}}/>
       <footer>
-        <div className="icons">
+        <div className="icons_footer" id="footer_nav">
           <a href="/"><i className="fab fa-linkedin"></i></a>
           <a href="/"><i className="fab fa-github"></i></a>
         </div>

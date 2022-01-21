@@ -3,7 +3,7 @@
 const Timeline = () => {
   return (
 <>
-<div className="timeline">
+<div className="timeline grid_2">
     <div className="timeline_card">
         <p>Graduated from Tärnaby Skidhem Folkhögskola</p>
         <h4>2012-2017</h4>

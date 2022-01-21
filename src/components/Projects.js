@@ -3,7 +3,7 @@ const Projects = () => {
     return (
         <>
             <h2 className="section_title">Projects</h2>
-            <div className="project_container grid">
+            <div className="project_container grid" id="projects_nav">
                 <div className="project_card">
                     <div className="project_image">
                         <img src="../../images/boostcraft.jpg"></img>
