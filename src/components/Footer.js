@@ -3,7 +3,7 @@
 const Footer = () => {
   return (
     <>
-      <hr/>
+      <hr style={{height:"3px"}}/>
       <footer>
         <div className="icons">
           <a href="/"><i className="fab fa-linkedin"></i></a>

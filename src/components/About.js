@@ -12,14 +12,10 @@ const About = () => {
                 I have learned a lot from my short time as a programmer and am eager to learn more.
                 Got a good eye for details and I am a fast learner.
             </p>
-            <div className="timeline">
-                
-            </div>
         </div>
         <div className="about_image">
             <img src="../../images/selfie.jpg"></img>
         </div>
-
     </div>
     </>
 );
