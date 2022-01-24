@@ -17,8 +17,8 @@ const Header = () => {
                 <a href="#about_section">About Me</a> 
             </div>    
             <div className="icons">
-           <a href="/"><i className="fab fa-linkedin"></i></a>
-           <a href="/"><i className="fab fa-github"></i></a>
+           <a href="https://www.linkedin.com/in/martin-lian-krane-b2bb19210/"><i className="fab fa-linkedin"></i></a>
+           <a href="https://github.com/Krane96"><i className="fab fa-github"></i></a>
             </div>
             <div className="toggle_menu">
             <a href="#" onClick={toggleMenu}><i className="fas fa-bars"></i></a>

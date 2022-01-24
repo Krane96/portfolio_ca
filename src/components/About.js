@@ -14,7 +14,7 @@ const About = () => {
             </p>
         </div>
         <div className="about_image">
-            <img src="../../images/bitmoji_bg.png"></img>
+            <img src="../../images/bitmoji_bg.png" alt="selfie"></img>
         </div>
     </div>
     </>
