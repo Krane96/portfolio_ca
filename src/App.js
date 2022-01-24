@@ -6,11 +6,11 @@ import Footer from "./components/Footer";
 import About from "./components/About";
 import Timeline from "./components/Timeline";
 
-
 function toggleMenuOff() {
   let navigation = document.querySelector(".navigation");
   navigation.classList.remove('active')
 }
+document.title = "Portfolio"
 
 function App() {
   return(

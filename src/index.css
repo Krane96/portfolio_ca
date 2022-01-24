@@ -11,7 +11,7 @@
 body{
     font-family: 'Space Grotesk', sans-serif;
     font-weight: 400;
-    background-color: #0F1624;
+    background-image: linear-gradient(160deg,#0F1624, #0f1e3f 40%,#0F1624);
     overflow-x: hidden;
     position: relative;
 }
@@ -29,7 +29,7 @@ header{
 }
 img{
     width: 100%;
-    border-radius: 3px;
+    border-radius: 2px;
 }
 a, p, h3, h4{
     text-decoration: none;
@@ -61,7 +61,7 @@ hr{
     border-radius: 5px;
 }
 .section_divider{
-    width: 160px; 
+    width: 200px; 
 }
 .section_title:first-of-type{
     background: linear-gradient(60deg, #FFFFFF 5.77%, rgba(255, 255, 255, 0.459) 18%);
@@ -76,6 +76,7 @@ hr{
 
 .navigation a{
     margin: 0 1.5rem;
+    color: #f1ebebd0;
 }
 .icons a{
     margin: 0 1rem;
@@ -141,6 +142,9 @@ hr{
 .project_card p{
     line-height: 26px;
 }
+.project_image img{
+    max-height: 200px;
+}
 
 
 .stack, .project_links{
@@ -162,6 +166,7 @@ hr{
 }
 .section_title{
     margin-top: 8rem;
+    margin-left: 1rem;
 }
 
 .ux{
@@ -300,9 +305,18 @@ footer a{
     width: 11px;
 }
 ::-webkit-scrollbar-thumb{
-    background: linear-gradient(transparent, #5B42F3);
+    background: linear-gradient(transparent, #2b10da);
     border-radius: 5px;
 }
+
+/*Hover effects*/
+.navigation a:hover{
+    color: #f1ebeb;
+    transition: 0.3s;
+}
+
+
+
 
 
 /* Responsive */
@@ -362,6 +376,9 @@ footer a{
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
+    #about_section{
+        margin: 10rem 1rem;
+    }
     
 }
 @media (max-width: 900px) {
@@ -406,7 +423,9 @@ footer a{
         right: 4rem;
         top: 1.1rem;
     }
-    
+    .about_image{
+        justify-content: center;
+    }
     
 }
 
@@ -417,6 +436,7 @@ footer a{
         }
         #about_section{
             flex-direction: column;
+            align-items: center;
         }
         .hero_section{
             flex-direction: column;
@@ -473,12 +493,12 @@ footer a{
         margin-top: 3rem;
     }
     .left_div p{
-        padding: 0 3rem;
+        padding: 0 2rem;
     }
     
     .project_card{
         max-width: 340px;
-        margin: 5rem .5rem;
+        margin: 5rem .8rem;
     }
     .section_title:last-of-type{
         background: linear-gradient(60deg, #FFFFFF 40%, rgba(255, 255, 255, 0.459) 90%);
@@ -500,6 +520,15 @@ footer a{
     }
     .section_title{
         margin-left: 0;
+    }
+    .icons a{
+        margin: 0 .5rem;
+    }
+}
+
+@media (max-width: 400px){
+    .project_card{
+        max-width: 320px;
     }
 }
 

@@ -1,5 +1,3 @@
-
-
 const Timeline = () => {
   return (
 <>
@@ -21,12 +19,10 @@ const Timeline = () => {
     <hr/>
     <div className="timeline_card">
         <p>To be continued...</p>
-        <h4>2022 🠖</h4>
+        <h4>2022 &#8594;</h4>
     </div>
 </div>
-
 </>
-
   );
 };
 

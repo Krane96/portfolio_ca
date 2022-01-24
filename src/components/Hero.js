@@ -1,5 +1,3 @@
-
-
 const Hero = () => {
     return (
         <div className="hero_section" style={{display:"flex",justifyContent:"space-evenly"}}>
@@ -10,9 +8,8 @@ const Hero = () => {
                 <hr className="section_divider"/>
             </div>
             <div className="right_div">
-            <img src="../../images/hero.svg"></img>
-            </div>
-           
+                <img src="../../images/hero.svg" alt="hero img"></img>
+            </div>   
         </div>
     );
 };
