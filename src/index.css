@@ -417,6 +417,7 @@ footer a{
     .active{
         right: 0;
         position: fixed;
+        transition: 0.4s;
     }
     .icons{
         position: absolute;
